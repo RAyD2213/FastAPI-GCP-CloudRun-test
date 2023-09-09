@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Random Number Generator</title>
+</head>
+
+<body>
+    <h1>Random Number Generator</h1>
+    <p>Random Number: <span id="randomNumber"></span></p>
+    <button id="generateButton">Generate Random Number</button>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Function to generate a random number
+            function generateRandomNumber() {
+                return Math.floor(Math.random() * 100) + 1; // Generates a random number between 1 and 100
+            }
+
+            // Click event handler for the "Generate Random Number" button
+            $('#generateButton').click(function() {
+                var randomNum = generateRandomNumber();
+                $('#randomNumber').text(randomNum); // Update the random number display
+            });
+        });
+    </script>
+</body>
+
+</html>
