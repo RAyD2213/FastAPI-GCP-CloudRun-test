@@ -40,7 +40,8 @@ follow https://fastapi.tiangolo.com/ step by step
 
 ### Example 
 
--   Create a file  `main.py`  with:
+  Create a file  `main.py`  with:
+
 
     from typing import Union
     
@@ -78,9 +79,10 @@ You will see the JSON response as:
  1. Install GOOGLE CLOUD SDK
  2. To create a project on the web and enable App Engine
  3. Run GOOGLE CLOUD SDK
- Login
 
-     gcloud anth login
+Login
+
+    gcloud anth login
 Change PATH to APP
 Deploy
 
